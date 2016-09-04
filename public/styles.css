@@ -1,0 +1,43 @@
+.panel {
+	border-width: 0;
+}
+th, td {
+	text-align: center;
+	width: 14%;
+}
+td:first-child {
+	text-align: left;
+}
+th div:nth-child(1) {
+	font-size: small;
+	font-weight:400;
+}
+th div:nth-child(2) {
+	color: white;
+}
+.message_box {
+	display: none;
+}
+#message {
+	text-align: center;
+}
+.table tr:nth-child(5) {
+	height: 30px;
+	border-bottom: 0px white solid;
+}
+.table tr:nth-child(6) td {
+	 height: 100px;
+	 vertical-align: bottom;
+	 border-top: 0px white solid;
+}
+.table tr:nth-child(7) td {
+	 height: 100px;
+}
+.table tr:nth-child(6) td div {
+	width:100%;
+	background-color: green;
+}
+.table tr:nth-child(7) td div {
+	width:100%; 
+	background-color: red;
+}
