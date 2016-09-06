@@ -67,7 +67,7 @@
                     <table class="table">
                         <tr>
                             <th></th>
-                            @foreach ($datas as $data)
+                            @foreach ($data_collection as $data)
                             <th>
                                 @if ($data->month_id == 1)
                                 <div>{{ $data->year }}</div>
@@ -80,19 +80,19 @@
                         </tr>
                         <tr>
                             <td class="active">Revenue</td>
-                            @foreach ($datas as $data)
+                            @foreach ($data_collection as $data)
                             <td>{{ $data->revenue }}</td>
                             @endforeach
                         </tr>
                         <tr>
                             <td class="active">Cost</td>
-                            @foreach ($datas as $data)
+                            @foreach ($data_collection as $data)
                             <td>{{ $data->cost }}</td>
                             @endforeach
                         </tr>
                         <tr>
                             <td class="success">Profit</td>
-                            @foreach ($datas as $data)
+                            @foreach ($data_collection as $data)
                             <td class="info">{{ $data->profit }}</td>
                             @endforeach
                         </tr>
